@@ -1,42 +1,135 @@
 #google-image
 	{
-    	width: 269px;
+    	width: 300px;
    		height: 95px;
     	margin-bottom: 20px;
+		margin-left:20px;
     	display: block;
 		
 	}
-.TopMenu
+div
 	{
-		align:right;	
+		display:block;
+	}
+.NavBar
+	{
+		float: right;	
+		margin:  7px 15px 0 0;
+	}
+
+.cf:before, .cf:after
+	 {
+   		content: " ";
+        display: table;
+}
+.cf:after 
+	{
+        clear: both;
+    }
+
+
+li 
+	{
+   		display: inline-block;
+    	vertical-align: middle;
+    	margin-right: 10px;
+		 text-align: -webkit-match-parent;
+	}
+ul li:nth-child(4), ul li:nth-child(5),ul li:nth-child(6)
+	{
+		min-width:30px;
+		min-height:30px;	
 		
 	}
-ul
-	{
-    	display: block;
-    	list-style-type: disc;
-    	-webkit-margin-before: 1em;
-    	-webkit-margin-after: 1em;
-    	-webkit-margin-start: 0px;
-    	-webkit-margin-end: 0px;
-    	-webkit-padding-start: 40px;	
-	}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
 .Notifications
 	{
-		    background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
-			background-position: -69px -69px;
-			position:absolute;
-			width:30px;
-			height:30px;
+		 background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+		 background-position: -69px -69px;
+		 position:absolute;
+		 width:30px;
+		 height:30px;
+	}
+.Menu
+	{
+		background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+		background-position: -69px -854px;
+		position:absolute;
+		width:30px;
+		height:30px;
+	}
+.Me, .Mail,.Images
+	{
+		font-size: 13px;
+		font-family: arial,sans-serif;
+		
+	}
+.Account 
+	{	
+		background-image:url(https://lh3.googleusercontent.com/-xqRCfR5Jh7M/AAAAAAAAAAI/AAAAAAAAApQ/S2Oxy4TE4SE/s60-p-rw-no/photo.jpg);
+		width: 32px;
+    	height: 32px;
+   		background-size: 32px 32px;
+		border-radius:50%;
+		position: absolute;
+		
 	}
 #inputLine
 	{
 		resize: none;
-		height: 50px;
-		width: 770px;
+		height: 38px;
+		width: 530px;
+		display:inline-block;
+		border-top: 1px solid #dcdcdc;
+    	border-right: none;
+    	border-bottom: 1px solid #dcdcdc;
+    	border-left: 1px solid #dcdcdc;
+		
 		
 	}
 .Search
 	{
-		margin-top: 415px;	
+		margin-top: 150px;
+			
 	}
+.Keyboard
+	{
+		display:inline-block;
+		float:right;
+		width: 40px;
+   		height: 36px;
+    	border-top: 1px solid #dcdcdc;
+    	border-right: none;
+    	border-bottom: 1px solid #dcdcdc;
+    	border-left: none;
+	}
+.Microphone
+	{
+		display:inline-block;
+		float:right;	
+		width: 29px;
+   		height: 36px;
+    	border-top: 1px solid #dcdcdc;
+    	border-right: 1px solid #dcdcdc;
+    	border-bottom: 1px solid #dcdcdc;
+    	border-left: none;
+	}
+#searchform
+	{
+		width: 600px;
+    	height: 40px;
+		margin-bottom:15px;
+	}
+.SearchButton, .LuckyButton
+	{
+		width:100;
+		height:40px;	
+		background-color:#E7E4E4;
+		border:none;
+		font-size:11px;
+		
+	}
+	
