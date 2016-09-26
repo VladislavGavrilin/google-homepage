@@ -1,0 +1,42 @@
+#google-image
+	{
+    	width: 269px;
+   		height: 95px;
+    	margin-bottom: 20px;
+    	display: block;
+		
+	}
+.TopMenu
+	{
+		align:right;	
+		
+	}
+ul
+	{
+    	display: block;
+    	list-style-type: disc;
+    	-webkit-margin-before: 1em;
+    	-webkit-margin-after: 1em;
+    	-webkit-margin-start: 0px;
+    	-webkit-margin-end: 0px;
+    	-webkit-padding-start: 40px;	
+	}
+.Notifications
+	{
+		    background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+			background-position: -69px -69px;
+			position:absolute;
+			width:30px;
+			height:30px;
+	}
+#inputLine
+	{
+		resize: none;
+		height: 50px;
+		width: 770px;
+		
+	}
+.Search
+	{
+		margin-top: 415px;	
+	}
