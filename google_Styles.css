@@ -33,7 +33,7 @@ li
    		display: inline-block;
     	vertical-align: middle;
     	margin-right: 10px;
-		 text-align: -webkit-match-parent;
+		text-align: -webkit-match-parent;
 	}
 ul li:nth-child(4), ul li:nth-child(5),ul li:nth-child(6)
 	{
@@ -81,7 +81,7 @@ center {
 	{
 		resize: none;
 		height: 38px;
-		width: 530px;
+		width: 540px;
 		display:inline-block;
 		border-top: 1px solid #dcdcdc;
     	border-right: none;
@@ -95,33 +95,34 @@ center {
 		margin-top: 150px;
 			
 	}
-.Keyboard
+
+#searchform
+	{
+		width: 602px;
+    	height: 40px;
+		margin-bottom:15px;
+	}
+#keyboard
 	{
 		display:inline-block;
 		float:right;
-		width: 40px;
-   		height: 36px;
+		width: 30px;
+   		height:  40px;
     	border-top: 1px solid #dcdcdc;
     	border-right: none;
     	border-bottom: 1px solid #dcdcdc;
     	border-left: none;
 	}
-.Microphone
+#microphone
 	{
 		display:inline-block;
 		float:right;	
-		width: 29px;
-   		height: 36px;
+		width: 30px;
+   		height:  40px;
     	border-top: 1px solid #dcdcdc;
     	border-right: 1px solid #dcdcdc;
     	border-bottom: 1px solid #dcdcdc;
     	border-left: none;
-	}
-#searchform
-	{
-		width: 600px;
-    	height: 40px;
-		margin-bottom:15px;
 	}
 .SearchButton, .LuckyButton
 	{
@@ -132,4 +133,56 @@ center {
 		font-size:11px;
 		
 	}
-	
+#bottomPanel
+	{	
+		position: absolute;
+		bottom: 0;
+		background-color: #f2f2f2 ;
+		border-top: 1px solid #dcdcdc;
+		width:100%;
+		height: 40px;
+		display:inline-block;
+
+		
+	}
+#leftBottom
+	{
+		display:inline-block;
+		margin-left: 27px;
+		left: 0;
+		positiom: absolute;
+	}
+#rightBottom
+	{
+		display:inline-block;
+		right:0;
+		margin-right: 30px;
+		position:absolute;
+	}
+body
+	{
+		margin: 0px;	
+	}
+#bottomPanel>*>*
+	{
+		margin: 10px;
+		margin-top: 12px;
+		display:inline-block;
+		positiom: absolute;
+		font-size: small;
+		font-family: arial,sans-serif;
+		
+
+	}
+#bottomPanel a
+	{
+		color: #666;	
+	}
+#rightBottom a, .NavBar a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+a:visited
+	{
+		color: #931;	
+	}
